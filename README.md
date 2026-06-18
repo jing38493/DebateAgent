@@ -37,3 +37,6 @@ python debate.py
 - 自定义编排循环精确控制「多轮 + 每轮结束观众提问」的辩论协议。
 - 每个角色一个独立 model client，**支持每个辩手用不同模型**。
 - 每次发言前 `on_reset`，把完整实录作为上下文喂入，保证所有角色共享同一份辩论上下文又不重复累积。
+
+## 参考文档
+https://microsoft.github.io/autogen/stable/index.html
