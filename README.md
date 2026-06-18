@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 1. `ROLE_MODELS`：把各角色的 `<...模型>` 占位符换成网关上实际可用的模型名（每个辩手可不同）。
 2. API key：`export LLM_API_KEY=你的key`（网关不校验则可不设，默认用占位串）。
-3. 若网关根路径不带 `/v1`，把 `BASE_URL` 改成 `https://llm.sca.im`。
+3. 若网关根路径不带 `/v1`，把 `BASE_URL` 改成 `https://***`。
 4. 流程参数：`ROUNDS`（轮数）、`WORD_LIMIT`（每次发言字数上限）。
 
 ## 运行
